@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-wrapper{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+.container{
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: brown;
+}
+
+.square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  width: calc(100% / 8);
+  aspect-ratio: 1 / 1;
+  border: 2px solid white;
+}
+
+.square.clicked{
+  background-color: cyan;
+}
