@@ -25,4 +25,4 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 **4** Fare un ciclo su 100
 **5** Ad ogni quadrato generato aggiungere un elemento "click"
 **6** Al click del quadrato aggiungere/togliere la classe "clicked"
-**7** Aggiungere il quadrato al container
+**7** Aggiungere il quadrato al container.
